@@ -5,9 +5,9 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "RU.ICETRAVELCOMPANY.APP"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. https://icetravelcompany.com/</name>
+    <name>поиск тура</name>
 
     <description>
         ТУРИСТИЧЕСКАЯ КОМПАНИЯ
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#FF1C1F" />
+    <preference name="SplashScreenSpinnerColor" value="#FF0000" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
